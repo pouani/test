@@ -1,0 +1,81 @@
+@media only screen and (min-width: 768px){
+
+    .header-logo{
+        max-width: 25rem;
+        width: 100%;
+    }
+
+    .header-nav-desktop{
+        display: flex;
+        gap: 1.4rem;
+    }
+
+    .header-nav-mobile{
+        display: none;
+    }
+
+    .section1{
+        display: flex;
+    }
+
+    .section1 .product{
+        padding: 0 4rem !important;
+    }
+
+    .product__feature span {
+        flex-basis: 25%;
+    }
+
+    .card_prod{
+        display: flex;
+        flex-direction: row-reverse;
+    }
+
+    .card_prod-content{
+        max-width: 32rem;
+        width: 100%;
+        margin: auto;
+    }
+
+    .faq-content{
+        display: flex;
+    }
+
+    .section3{
+        padding: 2rem 8rem;
+    }
+    .card_prod2{
+        margin-top: 0;
+    }
+}
+
+
+@media print, screen and (max-width: 46.87375em){
+    .product__feature span img {
+        width: 1.875rem;
+    }
+    .h3, h3 {
+        font-size: 1.625rem;
+    }
+}
+
+@media print, screen and (min-width: 64.375em){
+    .h3, h3 {
+        font-size: 2.5rem;
+    }
+}
+
+@media screen and (max-width:950px) {
+    .d-wrapper{
+        width: 100%;
+   
+    }
+
+    .d-toggle{
+        padding: 6px 4px;
+    }
+
+    .d-toggle p{
+        font-size: 16px;
+    }
+}
